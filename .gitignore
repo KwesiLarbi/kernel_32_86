@@ -1,3 +1,4 @@
 # Outputs
 boot.o
 kernel.o
+myos.bin
