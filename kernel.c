@@ -106,4 +106,8 @@ void terminal_writestring(const char* data)
 void kernel_main(void)
 {
     /* Initialize terminal interface */
+    terminal_initialize();
+
+    /* Newline support is left as an exercise */
+    terminal_writestring("Hello, Kernel World!\n");
 }
